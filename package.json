@@ -1,0 +1,15 @@
+{
+  "name": "bara-restaurant-3d",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BARA Kitchen & Grill — HTML, CSS, JavaScript with Node.js tooling",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "check": "node --check script.js && node --check server.mjs && node --check scripts/build.mjs && node scripts/validate.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node server.mjs --dist"
+  }
+}
