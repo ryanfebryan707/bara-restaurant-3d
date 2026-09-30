@@ -18,3 +18,6 @@
 @media(max-width:380px){.nav-cta{display:none}.hero-buttons{flex-direction:column;align-items:flex-start}}
 /* Keep the decorative 3D layers inside the viewport without changing vertical scroll. */
 body{overflow-x:clip}
+/* Comfortable reading sizes for menu descriptions and longer copy. */
+.card-copy>p:not(.card-category),.menu-row p:not(.card-category),.story-copy>p:not(.eyebrow),details>p,.section-heading>p,.faq-section>div>p:not(.eyebrow),.dialog-content>p:not(.eyebrow):not(.dialog-price){font-size:1rem}
+.detail-button,.filter-button,.main-nav a,.text-link,.nav-cta,.row-action .price,.price{font-size:.875rem}
