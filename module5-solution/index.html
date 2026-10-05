@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Module 5 Solution - BARA Restaurant Task">
+    <title>Module 5 - Solusi Tugas Restoran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Module 5 - Solusi Tugas</h1>
+        <p>Implementasi fitur restoran dengan HTML, CSS, dan JavaScript</p>
+    </header>
+
+    <main>
+        <section class="container">
+            <h2>Daftar Menu Restoran</h2>
+            
+            <div class="filter-section">
+                <label for="category-filter">Filter Kategori:</label>
+                <select id="category-filter">
+                    <option value="all">Semua</option>
+                    <option value="appetizer">Pembuka</option>
+                    <option value="main">Hidangan Utama</option>
+                    <option value="dessert">Penutup</option>
+                </select>
+            </div>
+
+            <div id="menu-list" class="menu-grid">
+                <!-- Menu items akan ditambahkan oleh JavaScript -->
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Detail Hidangan</h2>
+            <div id="dish-detail" class="dish-detail">
+                <p>Pilih hidangan dari daftar di atas untuk melihat detail.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Module 5 Solution - BARA Kitchen & Grill</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
